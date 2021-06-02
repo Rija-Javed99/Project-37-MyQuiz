@@ -56,9 +56,9 @@ class Quiz {
 
         display_Answers+=30;
         
-        //display players name with their answers
-        
-        
+         display_Answers+=30;
+        textSize(20);
+        text(allContestants[plr].name + ": " + allContestants[plr].answer, 250,display_Answers)
         
       }
     }
