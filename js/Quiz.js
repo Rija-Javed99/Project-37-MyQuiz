@@ -39,12 +39,9 @@ class Quiz {
     if(allContestants !== undefined){
       debugger;
       var display_Answers = 230;
-      
-      //add The note text mentioned in Pro-C37
-     
-      
-      
-      
+      fill("Blue");
+      textSize(20);
+     //add note
 
       for(var plr in allContestants){
         debugger;
@@ -55,11 +52,8 @@ class Quiz {
           fill("red");
 
         display_Answers+=30;
-        
-         display_Answers+=30;
         textSize(20);
         text(allContestants[plr].name + ": " + allContestants[plr].answer, 250,display_Answers)
-        
       }
     }
   }
