@@ -2,8 +2,8 @@ class Question {
 
   constructor() {
     this.title = createElement('h1')
-    this.input1 = createInput("Enter Your Name Here....");
-    this.input2 = createInput("Enter Correct Option No..");
+    this.input1 = createInput("           ");
+    this.input2 = createInput("       ");
     this.button = createButton('Submit');
     this.question = createElement('h3');
     this.option1 = createElement('h4');
@@ -20,10 +20,10 @@ class Question {
   }
 
   display(){
-    this.title.html("MyQuiz Game");
+    this.title.html("         ");
     this.title.position(350, 0);
 
-    this.question.html("Question:-//add question " );
+    this.question.html("               " );
     this.question.position(150, 80);
     this.option1.html("1://option " );
     this.option1.position(150, 100);
