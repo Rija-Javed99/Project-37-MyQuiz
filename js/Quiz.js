@@ -39,8 +39,12 @@ class Quiz {
     if(allContestants !== undefined){
       debugger;
       var display_Answers = 230;
-      fill("Blue");
-      textSize(20);
+      
+      
+      
+      
+      
+      
      //add note
 
       for(var plr in allContestants){
